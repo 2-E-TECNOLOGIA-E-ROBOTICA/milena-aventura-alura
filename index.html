@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Frankenstein journey</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="">
+            <p>Você é um jovem cientista aventureiro, decidido a desvendar os mistérios de Victor Frankenstein e sua infame criação. Ao chegar a Genebra, você ouve boatos de que a criatura de Frankenstein pode estar se escondendo nas montanhas ao norte ou nas ruínas do laboratório de Frankenstein a leste.</p>
+            <button class="btn-proximo" data-proximo="1">Ir para as Montanhas ao Norte</button>
+            <button class="btn-proximo" data-proximo="2">Explorar as Ruínas do Laboratório a Leste</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <img src="img/cenario-passo1.jpg" alt="">
+            <p>Você segue para as montanhas, onde o frio gélido e a neve dificultam seu progresso. Pegadas enormes marcam o chão, indicando que algo maior que um ser humano passou por ali. Um rugido distante ecoa pelas montanhas, fazendo você questionar se está preparado para o que está por vir.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir as pegadas</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="img/cenario-passo2.jpg" alt="">
+            <p>Ao chegar às ruínas do laboratório, você sente um ar pesado de decadência. Restos de experimentos estão espalhados por todo lugar, e o som de água pingando ecoa. Há uma inscrição na parede: “Aqui nasce o poder da criação e da destruição”.</p>
+            <button class="btn-proximo" data-proximo="4">Explorar os porões ocultos do laboratório</button>
+            <button class="btn-proximo" data-proximo="11">Desistir e voltar para a cidade</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Você segue as pegadas pela neve e encontra uma caverna com a entrada parcialmente coberta por gelo. Dentro, você encontra um abrigo improvisado, com pedaços de comida e um diário velho jogado no chão. As páginas falam de solidão e arrependimento.</p>
+            <button class="btn-proximo" data-proximo="5">Ler o diário abandonado</button>
+            <button class="btn-proximo" data-proximo="6">Sair da caverna antes que a criatura retorne</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Nos porões do laboratório, você encontra câmaras frias, onde experimentos bizarros parecem ter sido realizados. Frascos quebrados e líquidos estranhos cobrem o chão. No centro da sala, uma mesa cirúrgica ainda está manchada de sangue seco.</p>
+            <button class="btn-proximo" data-proximo="6">Sair do laboratório rapidamente</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>O diário revela os sentimentos profundos da criatura: o desejo de ser aceito, sua raiva contra Frankenstein e sua necessidade de vingança. De repente, você ouve passos pesados fora da caverna, e uma sombra bloqueia a luz da entrada. A criatura está perto.</p>
+            <button class="btn-proximo" data-proximo="7">Confrontar a criatura</button>
+            <button class="btn-proximo" data-proximo="8">Tentar escapar pela saída oposta</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Enquanto você tenta sair da sala, o som de correntes se arrastando enche o ar. Um vulto enorme se aproxima e seus olhos brilham no escuro. A presença da criatura é inconfundível, e agora você está preso, sem uma rota de fuga clara.</p>
+            <button class="btn-proximo" data-proximo="7">Confrontar a criatura</button>
+            <button class="btn-proximo" data-proximo="8">Tentar escapar pela saída oposta</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você se vira para encarar a criatura de Frankenstein. Seu rosto expressa tanto dor quanto raiva. Ele avança em sua direção, mas hesita, como se aguardasse suas palavras. O que você dirá pode decidir seu destino.</p>
+            <button class="btn-proximo" data-proximo="9">Dialogar e tentar apelar para sua humanidade</button>
+            <button class="btn-proximo" data-proximo="10">Aceitar o destino e confrontar a criatura fisicamente</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você tenta correr, mas a criatura é rápida, bloqueando sua fuga. O ar gélido torna seus movimentos lentos, e logo você sente sua presença ao seu lado. O frio aumenta à medida que ele se aproxima, pronto para o confronto final.</p>
+            <button class="btn-proximo" data-proximo="10">Aceitar o destino e confrontar a criatura fisicamente</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você fala com a criatura, apelando para sua solidão e sofrimento. Suas palavras encontram eco, e a criatura hesita. Após um momento de silêncio tenso, ele baixa sua guarda, mas avisa que nunca será aceito neste mundo. Ele desaparece na escuridão, deixando você em paz, mas cheio de perguntas.</p>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você encara a criatura e se prepara para o confronto final. A luta é feroz, mas logo você percebe que não há como vencer uma criatura tão poderosa. Ao cair em derrota, você entende que a lenda de Frankenstein ainda vive, e você agora faz parte dela.</p>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11.jpg" alt="imagem cientista sem animo">
+            <p>Percebendo que a busca pelo legado de Frankenstein era perigosa demais, você decide voltar para Genebra e viver uma vida tranquila, longe dos horrores das montanhas e dos laboratórios abandonados.</p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
